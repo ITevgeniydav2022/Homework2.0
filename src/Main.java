@@ -35,5 +35,20 @@ public class Main {
         System.out.println(" Значение пременной I с типом double = " + i);
         long h = 987678965549L;
         System.out.println(" Значение пременной H с типом long = " + h);
+
+        // Задание 3
+        System.out.println("Задание 3");
+        byte studentsClass1 = 23;
+        System.out.println("В классе Людмилы Павловны " + studentsClass1 + " ученика ");
+        byte studentsClass2 = 27;
+        System.out.println("В классе Анны Сергеевны " + studentsClass2 + " ученика ");
+        byte studentsClass3 = 30;
+        System.out.println("В классе Екатерины Андреевны " + studentsClass3 + " ученика ");
+        int totalStudents = studentsClass1 + studentsClass2 + studentsClass3;
+        System.out.println("Всего в трех классах - " + totalStudents + " учеников ");
+
+        short totalPaper = 480;
+        System.out.println("Общее количество купленой бумаги на три класса " + totalPaper + " листов ");
+        System.out.println("На каждого ученика расчитано " + (totalPaper / totalStudents) + " листов бумаги");
     }
 }
