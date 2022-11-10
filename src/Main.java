@@ -50,5 +50,20 @@ public class Main {
         short totalPaper = 480;
         System.out.println("Общее количество купленой бумаги на три класса " + totalPaper + " листов ");
         System.out.println("На каждого ученика расчитано " + (totalPaper / totalStudents) + " листов бумаги");
+
+        // Задание 4
+        System.out.println("Задание 4");
+        byte totalBottles = 16;
+        byte workingHours = 2;
+        int bottlesPerMinute = totalBottles / workingHours;
+        System.out.println("За 1 минуту, машина производит бутылок " + bottlesPerMinute + " штук ");
+        byte productionTime1 = 20;
+        System.out.println("За 20 минут машина произвела бутылок " + ( bottlesPerMinute * productionTime1 ) + " штук ");
+        int productionTime2 = 1440;
+        System.out.println("За 24 часа машина произвела бутылок " + ( bottlesPerMinute * productionTime2 ) + " штук ");
+        int productionTime3 = 4320;
+        System.out.println("За 72 часа машина произвела бутылок " + ( bottlesPerMinute * productionTime3 ) + " штук ");
+        int productionTime4 = 43200;
+        System.out.println("За 720 часов машина произвела бутылок " + ( bottlesPerMinute * productionTime4 ) + " штук ");
     }
 }
