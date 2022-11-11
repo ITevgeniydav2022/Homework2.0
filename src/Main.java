@@ -109,6 +109,30 @@ public class Main {
         System.out.println("Если спротсмен будет терять ежедневно по 250 грамм веса, то ему потребуется " + (weightGr / diet1) + " дней. ");
         System.out.println("Если спортсмен будет тратить ежедневно по 500 грамм веса, то ему потребуется " + (weightGr / diet2) + " дней ");
 
+        // Задание 8
+        System.out.println("Задание 8");
+        byte months = 12;
+        double interest = 1.1;
+        int salary1M = 67760;
+        int annualIncomeM = salary1M * months;
+        double salary2M = salary1M * interest;
+        double afterPromotionM = salary2M * months;
+        System.out.println("Маша теперь получает " + salary2M + " рублей в месяц. Годовой доход вырос на " + ( afterPromotionM - annualIncomeM ) + " рублей ");
+
+        byte months1 = 12;
+        float interest1 = 1.1f;
+        int salary1D = 83690;
+        float annualIncomeD = salary1D * months1;
+        float salary2D = salary1D * interest1;
+        float afterPromotionD = salary2D * months1;
+        System.out.println("Денис теперь получает " + salary2D + " рублей в месяц. Годовой доход вырос на " + ( afterPromotionD - annualIncomeD ) + " рублей ");
+
+        int salary1K = 76230;
+        int annualIncomeK = salary1K * months;
+        double salary2K = salary1K * interest;
+        double afterPromotionK = salary2K * months;
+        System.out.println("Кристина теперь получает " + salary2K + " рублей в месяц. Годовой доход вырос на " + ( afterPromotionK - annualIncomeK ) + " рублей ");
+
 
 
         
