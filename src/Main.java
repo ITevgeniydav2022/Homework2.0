@@ -65,5 +65,19 @@ public class Main {
         System.out.println("За 72 часа машина произвела бутылок " + ( bottlesPerMinute * productionTime3 ) + " штук ");
         int productionTime4 = 43200;
         System.out.println("За 720 часов машина произвела бутылок " + ( bottlesPerMinute * productionTime4 ) + " штук ");
+
+        // Задание 5
+        System.out.println("Задание 5");
+        byte generalNeed = 120;
+        System.out.println("Всего необходимо для ремонта школы " + generalNeed + " банок краски двух цветов ");
+        byte whitePaint = 2;
+        byte brownPaint = 4;
+        System.out.println("Для ремонта одного класса требуется " + whitePaint + " банки белой краски и " + brownPaint + " банки коричневой краски ");
+        int totalPaint = whitePaint + brownPaint;
+        System.out.println("Всего наобходимо для ремонта одного класса " + totalPaint + " банок краски ");
+        int totalClasses = generalNeed / totalPaint;
+        System.out.println("В школе всего " + totalClasses + " классов ");
+        System.out.println("В школе, где " + totalClasses + " классов, нужно " + (whitePaint * totalClasses) + " банок белой краски и " + (brownPaint * totalClasses) + " банок коричневой краски. ");
+        
     }
 }
