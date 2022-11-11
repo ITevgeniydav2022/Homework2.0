@@ -78,6 +78,29 @@ public class Main {
         int totalClasses = generalNeed / totalPaint;
         System.out.println("В школе всего " + totalClasses + " классов ");
         System.out.println("В школе, где " + totalClasses + " классов, нужно " + (whitePaint * totalClasses) + " банок белой краски и " + (brownPaint * totalClasses) + " банок коричневой краски. ");
+
+        // Задание 6
+        System.out.println("Задание 6");
+        byte bananaWeight = 80;
+        byte totalBananas = 5;
+        int totalWeightBananas = totalBananas * bananaWeight;
+        byte milkWeight = 105;
+        byte totalMilk = 2;
+        int totalWeightMilk = totalMilk * milkWeight;
+        byte iceCreamWeight = 100;
+        byte totalIceCream = 2;
+        int totalWeightIceCream = totalIceCream * iceCreamWeight;
+        byte eggWeight = 70;
+        byte totalEgg = 4;
+        int totalWeightEgg = totalEgg * eggWeight;
+        int totalWeightProducts = totalWeightBananas + totalWeightMilk + totalWeightIceCream + totalWeightEgg;
+        System.out.println("Общий вес спорт-завтрака в граммах = " + (totalWeightProducts) + " грамм. ");
+        int grPerKg = 1000;
+        float weightKg = totalWeightProducts / ( float )grPerKg;
+        System.out.println("Общий вес спорт-завтрака в килограммах = " + weightKg + " килограмм ");
+
+
+
         
     }
 }
