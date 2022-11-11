@@ -96,8 +96,18 @@ public class Main {
         int totalWeightProducts = totalWeightBananas + totalWeightMilk + totalWeightIceCream + totalWeightEgg;
         System.out.println("Общий вес спорт-завтрака в граммах = " + (totalWeightProducts) + " грамм. ");
         int grPerKg = 1000;
-        float weightKg = totalWeightProducts / ( float )grPerKg;
+        float weightKg = totalWeightProducts / ( float ) grPerKg;
         System.out.println("Общий вес спорт-завтрака в килограммах = " + weightKg + " килограмм ");
+
+        // Задание 7
+        System.out.println("Задание 7");
+        byte excessWeight = 7;
+        short diet1 = 250;
+        short diet2 = 500;
+        int kgPerGr = 1000;
+        int weightGr = excessWeight * kgPerGr;
+        System.out.println("Если спротсмен будет терять ежедневно по 250 грамм веса, то ему потребуется " + (weightGr / diet1) + " дней. ");
+        System.out.println("Если спортсмен будет тратить ежедневно по 500 грамм веса, то ему потребуется " + (weightGr / diet2) + " дней ");
 
 
 
